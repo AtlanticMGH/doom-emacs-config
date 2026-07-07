@@ -1,0 +1,8 @@
+(custom-set-faces!
+  '(default :background "#0a1418" :foreground "#d6f3f7")
+  '(font-lock-keyword-face      :foreground "#00e5ff" :weight bold)
+  '(font-lock-string-face       :foreground "#4dffb8")
+  '(font-lock-builtin-face      :foreground "#4db8ff" :weight bold)
+  '(font-lock-variable-name-face :foreground "#b18fff")
+  '(line-number :foreground "#2d4a52" :slant italic)
+  '(line-number-current-line :foreground "#ffd166" :weight bold))
