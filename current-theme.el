@@ -1,0 +1,1 @@
+/home/luca/.config/hypr/themes/cyan/emacs-colors.el
