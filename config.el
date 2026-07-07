@@ -3,9 +3,6 @@
 (setq display-line-numbers-type 'relative)
 (setq org-directory "~/org/")
 
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
 
 (unless (display-graphic-p)
   (load-theme 'doom-one t))
@@ -18,7 +15,7 @@
       :localleader
       "i" #'lsp-java-organize-imports)
 
-(defvar my/emacs-theme-link (expand-file-name "~/.config/doom/current-theme.el")
+(defvar my/emacs-theme-link (expand-file-name "~/.config/doom/current-theme.el"))
 
 (defun my/load-current-theme ()
   (interactive)
